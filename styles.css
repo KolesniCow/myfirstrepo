@@ -1,0 +1,18 @@
+ul {
+  background-color: aqua;
+}
+
+li {
+  font-size: 3rem;
+  list-style-type: none;
+  padding-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  width: 50rem;
+}
