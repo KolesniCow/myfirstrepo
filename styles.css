@@ -1,18 +1,10 @@
-ul {
-  background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+
+.navbar-brand {
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-li {
-  font-size: 3rem;
-  list-style-type: none;
-  padding-right: 100px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-p {
-  width: 50rem;
+body {
+  height: 100% !important;
+  width: 100% !important;
 }
