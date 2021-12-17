@@ -8,3 +8,41 @@ body {
   height: 100% !important;
   width: 100% !important;
 }
+
+.border-skills {
+  margin-bottom: 100px;
+}
+
+.text-on-img {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border-on-img {
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.border2-on-img {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-about-me {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
