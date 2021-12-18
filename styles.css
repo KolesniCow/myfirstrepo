@@ -10,15 +10,25 @@ html {
   width: 100% !important;
 }
 
-.border-skills {
-  margin-bottom: 100px;
+.icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-skills {
+  padding-top: 120px;
+}
+
+.content-myworks {
+  padding-top: 120px;
 }
 
 .content-on-img {
   text-align: center;
   margin: auto;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
