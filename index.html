@@ -6,152 +6,247 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-
     <div class="wrap">
-      <div class="grain">
-      </div>  
+      <div class="grain"></div>
     </div>
     <div class="content-on-img">
-      <p class="text-light">Hi, i am Alexand, and i am</p>
-      <h1 class="text-light">Frontend Web Developer</h1>
-      <p class="text-light">Lorem ipsum dolor sit amet consectetur.</p>
+      <p class="text-light main-text anim-main">Hi, i am Alexand, and i am</p>
+      <h1 class="text-light main-text anim-main">Frontend Web Developer</h1>
+      <p class="text-light main-text anim-main">
+        Lorem ipsum dolor sit amet consectetur.
+      </p>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a href="" class="navbar-brand">Alexandr K.</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
+        <a href="" class="navbar-brand" data-aos="zoom-in-right">Alexandr K.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
-            <li class="nav-item ">
-              <a href="" class="nav-link">О себе</a>
+            <li class="nav-item">
+              <a href="" class="nav-link other-text">What i do</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Скилы</a>
+              <a href="" class="nav-link other-text">My works</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Мои работы</a>
+              <a href="" class="nav-link other-text">Skills</a>
             </li>
             <li class="nav-item">
-              <a href="" class="nav-link">Обратная связь</a>
+              <a href="" class="nav-link other-text">Send me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-
-
     <div class="content-skills bg-light border-bottom">
       <div class="container-fluid">
-        <div class="row mb-4">
-          <h2 class="text-center fw-bolder text-uppercase fs-1">This is what i do:</h2>
+        <div class="row mb-4" data-aos="fade-up">
+          <h2 class="text-center fw-bolder text-uppercase fs-1 main-text">
+            This is what i do:
+          </h2>
         </div>
         <div class="row mb-4">
           <div class="col-5"></div>
-          <div class="border-skills col-2 border-top border-dark border-2"></div>
+          <div
+            class="border-skills col-2 border-top border-dark border-2"
+          ></div>
           <div class="col-5"></div>
         </div>
         <div class="row mb-5">
           <div class="col-2"></div>
-          <div class="col-8"><p class="text-center fst-italic text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum fuga nemo aliquam vel totam.</p></div>
+          <div class="col-8">
+            <p class="text-center text-muted fs-5 other-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum
+              fuga nemo aliquam vel totam.
+            </p>
+          </div>
           <div class="col-2"></div>
         </div>
-          <div class="row mb-4">
-            <div class="col-1"></div>
-            <div class="col bg-white border-bottom">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-file-richtext icon mb-4 mt-4" viewBox="0 0 16 16">
-                <path d="M7 4.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V7.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V7s1.54-1.274 1.639-1.208zM5 9a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/>
-                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/>
-              </svg>
-              <h6 class="text-center">Верстка шаблонов</h6>
-              <p class="fst-italic text-center text-muted py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt molestiae possimus, necessitatibus ullam fugit accusantium neque recusandae excepturi modi non.</p>
-            </div>
-            <div class="col-1"></div>
-            <div class="col bg-white border-bottom">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-app-indicator icon mb-4 mt-4" viewBox="0 0 16 16">
-                <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
-                <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-              </svg>
-              <h6 class="text-center">Создание веб приложений</h6>
-              <p class="fst-italic text-center text-muted py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eos quia a qui repudiandae voluptatibus? Consequuntur exercitationem hic ipsum ipsam?</p>
-            </div>
-            <div class="col-1"></div>
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div
+            class="col-lg bg-white border-bottom mb-4"
+            data-aos="zoom-in-right"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              fill="currentColor"
+              class="bi bi-file-richtext icon mb-4 mt-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7 4.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0zm-.861 1.542 1.33.886 1.854-1.855a.25.25 0 0 1 .289-.047l1.888.974V7.5a.5.5 0 0 1-.5.5H5a.5.5 0 0 1-.5-.5V7s1.54-1.274 1.639-1.208zM5 9a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"
+              />
+              <path
+                d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"
+              />
+            </svg>
+            <h6 class="text-center other-text other-heading">
+              Верстка шаблонов
+            </h6>
+            <p class="text-muted py-2 text-mobile-center other-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+              nisi, quos magnam commodi, explicabo officia animi quasi voluptate
+              eius magni doloribus exercitationem libero numquam totam.
+            </p>
           </div>
-          <div class="row mb-5">
-            <div class="col-1"></div>
-            <div class="col bg-white border-bottom">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-tools icon mb-4 mt-4" viewBox="0 0 16 16">
-                <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
-              </svg>
-              <h6 class="text-center">Парсинг сайтов</h6>
-              <p class="fst-italic text-center text-muted py-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ipsum officiis nemo laudantium optio aperiam consequuntur at dolor impedit culpa!</p>
-            </div>
-            <div class="col-1"></div>
+          <div class="col-lg-1"></div>
+          <div
+            class="col-lg mb-4 bg-white border-bottom"
+            data-aos="zoom-in-left"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              fill="currentColor"
+              class="bi bi-app-indicator icon mb-4 mt-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"
+              />
+              <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            </svg>
+            <h6 class="text-center other-text other-heading">
+              Создание веб приложений
+            </h6>
+            <p class="text-mobile-center text-muted py-2 other-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+              nisi, quos magnam commodi, explicabo officia animi quasi voluptate
+              eius magni doloribus exercitationem libero numquam totam.
+            </p>
           </div>
+          <div class="col-lg-1"></div>
+        </div>
+        <div class="row mb-5" data-aos="zoom-in-up">
+          <div class="col-lg-1"></div>
+          <div class="col-lg bg-white border-bottom">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              fill="currentColor"
+              class="bi bi-tools icon mb-4 mt-4"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"
+              />
+            </svg>
+            <h6 class="text-center other-text other-heading">Парсинг сайтов</h6>
+            <p class="text-mobile-center text-muted py-2 other-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+              nisi, quos magnam commodi, explicabo officia animi quasi voluptate
+              eius magni doloribus exercitationem libero numquam totam.
+            </p>
+          </div>
+          <div class="col-lg-1"></div>
+        </div>
       </div>
     </div>
 
     <div class="content-myworks">
       <div class="container-fluid border-bottom">
         <div class="row mb-4">
-          <h2 class="text-center fw-bolder text-uppercase fs-1">MY WORKS:</h2>
+          <h2
+            class="text-center fw-bolder text-uppercase fs-1 main-text"
+            data-aos="fade-up"
+          >
+            MY WORKS:
+          </h2>
         </div>
         <div class="row mb-4">
           <div class="col"></div>
-          <div class="border-skills col-1 border-top border-2 border-dark"></div>
+          <div
+            class="border-skills col-1 border-top border-2 border-dark"
+          ></div>
           <div class="col"></div>
         </div>
         <div class="row mb-5">
           <div class="col-2"></div>
-          <div class="col-8"><p class="text-center fst-italic text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum fuga nemo aliquam vel totam.</p></div>
+          <div class="col-8">
+            <p class="text-center text-muted fs-5 other-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum
+              fuga nemo aliquam vel totam.
+            </p>
+          </div>
           <div class="col-2"></div>
         </div>
-        <div class="row mb-3 content-project">
+        <div class="row mb-5 content-project">
           <div class="col-md-5">
-            <img class="img-fluid" src="photo1.jpg" alt=""></div>
-          <div class="col-md-5">
-            <h5 class="text-center">Name Project</h5>
-            <div class="text-about-project">
-              <p class="fst-italic text-muted py-2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic ducimus fugit ipsam labore rerum possimus aspernatur fugiat voluptates. Voluptas obcaecati eum eius adipisci quod illo sequi soluta!</p>
-            </div>
-            <div class="links-on-projects py-2">
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-              </a>
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
-                </svg>
-              </a>
-            </div>
+            <img
+              data-aos="zoom-in-right"
+              class="img-fluid"
+              src="photo1.jpg"
+              alt=""
+            />
           </div>
-        </div>
-        <div class="row mb-3 content-project">
           <div class="col-md-5">
-            <img class="img-fluid" src="photo1.jpg" alt=""></div>
-          <div class="col-md-5">
-            <h5 class="text-center">Name Project</h5>
+            <h5 class="text-center fs-4 other-text other-heading">
+              Name Project
+            </h5>
             <div class="text-about-project">
-              <p class="fst-italic text-muted py-2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic ducimus fugit ipsam labore rerum possimus aspernatur fugiat voluptates. Voluptas obcaecati eum eius adipisci quod illo sequi soluta!</p>
+              <p class="other-text text-muted fs-5 py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                optio dolor reprehenderit officia aliquam iure ea doloremque
+                quos exercitationem non at minus, nam iusto. Voluptate
+                repellendus eum nisi dignissimos dolores quidem a quod earum
+                eligendi.
+              </p>
             </div>
             <div class="links-on-projects py-2">
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              <a href="" class="link-dark px-2" data-aos="flip-right">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
                 </svg>
               </a>
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+              <a href="" class="link-dark px-2" data-aos="flip-left">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-arrow-up-right-square"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+                  />
                 </svg>
               </a>
             </div>
@@ -159,21 +254,109 @@
         </div>
         <div class="row mb-5 content-project">
           <div class="col-md-5">
-            <img class="img-fluid" src="photo1.jpg" alt=""></div>
+            <img
+              data-aos="zoom-in-right"
+              class="img-fluid"
+              src="photo1.jpg"
+              alt=""
+            />
+          </div>
           <div class="col-md-5">
-            <h5 class="text-center">Name Project</h5>
+            <h5 class="text-center fs-4 other-text other-heading">
+              Name Project
+            </h5>
             <div class="text-about-project">
-              <p class="fst-italic text-muted py-2" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel hic ducimus fugit ipsam labore rerum possimus aspernatur fugiat voluptates. Voluptas obcaecati eum eius adipisci quod illo sequi soluta!</p>
+              <p class="other-text text-muted fs-5 py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                optio dolor reprehenderit officia aliquam iure ea doloremque
+                quos exercitationem non at minus, nam iusto. Voluptate
+                repellendus eum nisi dignissimos dolores quidem a quod earum
+                eligendi.
+              </p>
             </div>
             <div class="links-on-projects py-2">
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              <a href="" class="link-dark px-2" data-aos="flip-right">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
                 </svg>
               </a>
-              <a href="" class="link-dark px-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+              <a href="" class="link-dark px-2" data-aos="flip-left">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-arrow-up-right-square"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5 content-project">
+          <div class="col-md-5">
+            <img
+              data-aos="zoom-in-right"
+              class="img-fluid"
+              src="photo1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-5">
+            <h5 class="text-center fs-4 other-text other-heading">
+              Name Project
+            </h5>
+            <div class="text-about-project">
+              <p class="other-text text-muted fs-5 py-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                optio dolor reprehenderit officia aliquam iure ea doloremque
+                quos exercitationem non at minus, nam iusto. Voluptate
+                repellendus eum nisi dignissimos dolores quidem a quod earum
+                eligendi.
+              </p>
+            </div>
+            <div class="links-on-projects py-2">
+              <a href="" class="link-dark px-2" data-aos="flip-right">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-github"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  />
+                </svg>
+              </a>
+              <a href="" class="link-dark px-2" data-aos="flip-left">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="64"
+                  height="64"
+                  fill="currentColor"
+                  class="bi bi-arrow-up-right-square"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+                  />
                 </svg>
               </a>
             </div>
@@ -185,30 +368,59 @@
     <div class="content-my-skills bg-light border-bottom">
       <div class="container-fluid">
         <div class="row mb-4">
-          <h2 class="text-center fw-bolder text-uppercase fs-1">MY SKILLS:</h2>
+          <h2
+            class="text-center fw-bolder text-uppercase fs-1 main-text"
+            data-aos="fade-up"
+          >
+            MY SKILLS:
+          </h2>
         </div>
         <div class="row mb-4">
           <div class="col"></div>
-          <div class="border-skills col-1 border-top border-2 border-dark"></div>
+          <div
+            class="border-skills col-1 border-top border-2 border-dark"
+          ></div>
           <div class="col"></div>
         </div>
         <div class="row mb-5">
           <div class="col-2"></div>
-          <div class="col-8"><p class="text-center fst-italic text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum fuga nemo aliquam vel totam.</p></div>
+          <div class="col-8">
+            <p class="text-center other-text text-muted fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum
+              fuga nemo aliquam vel totam.
+            </p>
+          </div>
           <div class="col-2"></div>
         </div>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-5 mb-5">
-            <p class="fs-3">HTML</p>
-            <div class="progress" style="height: 6px;">
-              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 70%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            <p class="fs-3 other-heading other-text">HTML</p>
+            <div class="progress" style="height: 6px">
+              <div
+                class="progress-bar progress-bar-striped bg-success"
+                data-aos="fade-right"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
           </div>
           <div class="col-md-5 mb-5">
-            <p class="fs-3">CSS</p>
-            <div class="progress" style="height: 6px;">
-              <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            <p class="fs-3 other-heading other-text">CSS</p>
+            <div class="progress" style="height: 6px">
+              <div
+                class="progress-bar progress-bar-striped bg-info"
+                data-aos="fade-right"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
           </div>
           <div class="col-md-1"></div>
@@ -216,15 +428,31 @@
         <div class="row mb-5">
           <div class="col-md-1"></div>
           <div class="col-md-5 mb-5">
-            <p class="fs-3">JavaScript, Node JS</p>
-            <div class="progress" style="height: 6px;">
-              <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            <p class="fs-3 other-heading other-text">JavaScript, Node JS</p>
+            <div class="progress" style="height: 6px">
+              <div
+                class="progress-bar progress-bar-striped bg-warning"
+                data-aos="fade-right"
+                role="progressbar"
+                style="width: 30%"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
           </div>
           <div class="col-md-5 mb-5">
-            <p class="fs-3">Python</p>
-            <div class="progress" style="height: 6px;">
-              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+            <p class="fs-3 other-heading other-text">Python</p>
+            <div class="progress" style="height: 6px">
+              <div
+                class="progress-bar progress-bar-striped bg-danger"
+                data-aos="fade-right"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="20"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
             </div>
           </div>
           <div class="col-md-1"></div>
@@ -232,86 +460,190 @@
       </div>
     </div>
 
-    <div class="send-me border-bottom" style="padding-bottom: 120px;">
+    <div class="send-me border-bottom" style="padding-bottom: 120px">
       <div class="container-fluid">
         <div class="row mb-4">
-          <h2 class="text-center fw-bolder text-uppercase fs-1">send me message:</h2>
+          <h2
+            class="text-center fw-bolder text-uppercase fs-1 main-text"
+            data-aos="fade-up"
+          >
+            send me message:
+          </h2>
         </div>
         <div class="row mb-4">
           <div class="col"></div>
-          <div class="border-skills col-1 border-top border-2 border-dark"></div>
+          <div
+            class="border-skills col-1 border-top border-2 border-dark"
+          ></div>
           <div class="col"></div>
         </div>
         <div class="row mb-5">
           <div class="col-2"></div>
-          <div class="col-8"><p class="text-center fst-italic text-muted fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum fuga nemo aliquam vel totam.</p></div>
+          <div class="col-8">
+            <p class="text-center other-text text-muted fs-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae possimus distinctio dignissimos nesciunt nam! Dolorum
+              fuga nemo aliquam vel totam.
+            </p>
+          </div>
           <div class="col-2"></div>
         </div>
         <div class="row">
-          <div class="col-3"></div>
-          <div class="col-6">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
             <form>
-              <input type="email" class="form-control mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
-              <input type="email" class="form-control mb-3"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Mail">
-              <textarea class="form-control mb-3" placeholder="Message" id="exampleFormControlTextarea1" rows="7"></textarea>
-              <button type="button" style="width: 100%;" class="btn btn-dark text-uppercase">send message</button>
+              <input
+                type="email"
+                class="form-control mb-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Name"
+              />
+              <input
+                type="email"
+                class="form-control mb-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="E-Mail"
+              />
+              <textarea
+                class="form-control mb-3"
+                placeholder="Message"
+                id="exampleFormControlTextarea1"
+                rows="7"
+              ></textarea>
+              <button
+                data-aos="fade-up"
+                type="button"
+                style="width: 100%"
+                class="btn btn-dark text-uppercase other-text"
+              >
+                send message
+              </button>
             </form>
           </div>
         </div>
       </div>
     </div>
-    
+
     <footer class="page-footer bg-dark">
       <div class="container-fluid text-center text-md-left">
         <div class="row mb-4">
-          <div class="col-md-4"></div>
-          <div class="col-md-4 mt-4">
-            <a href="" class="text-muted me-3" style="text-decoration: none;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
-                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4 mt-4">
+            <a href="" class="text-muted me-3" style="text-decoration: none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-telegram"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"
+                />
               </svg>
             </a>
-            <a href="" class="text-muted me-3" style="text-decoration: none;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            <a href="" class="text-muted me-3" style="text-decoration: none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-twitter"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
+                />
               </svg>
             </a>
-            <a href="" class="text-muted me-3" style="text-decoration: none;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+            <a href="" class="text-muted me-3" style="text-decoration: none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-envelope-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                />
               </svg>
             </a>
-            <a href="" class="text-muted me-3" style="text-decoration: none;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            <a href="" class="text-muted me-3" style="text-decoration: none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-facebook"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+                />
               </svg>
             </a>
-            <a href="" class="text-muted me-3" style="text-decoration: none;">
-              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            <a href="" class="text-muted me-3" style="text-decoration: none">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-github"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                />
               </svg>
             </a>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5"></div>
-          <div class="col-md-2">
-            <p class="text-white text-center">Made in Russia with 
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-            </svg>
-          </p>
+          <div class="col-lg-5"></div>
+          <div class="col-lg-2">
+            <p class="text-white text-center other-text">
+              Made in Russia with
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                fill="currentColor"
+                class="bi bi-heart-fill text-danger"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+                />
+              </svg>
+            </p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
-            <p class="text-muted text-center">© 2021 Alexand Kolesnikov</p>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4">
+            <p class="text-muted text-center other-text">
+              © 2021 Alexand Kolesnikov
+            </p>
           </div>
         </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="scripts.js"></script></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>

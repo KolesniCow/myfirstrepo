@@ -1,7 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+@keyframes text-main {
+  from {
+    opacity: 0;
+    padding-top: 100px;
+  }
+  to {
+    opacity: 1;
+    padding-top: 0px;
+  }
+}
+
+.anim-main {
+  animation: text-main 1.5s;
+}
 
 .navbar-brand {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Caveat Brush', cursive;
+}
+
+.main-text {
+  font-family: 'Raleway', sans-serif;
+}
+
+.other-text {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.other-heading {
+  font-weight: bold;
 }
 
 body,
@@ -72,4 +102,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.text-mobile-center {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .text-mobile-center {
+    text-align: initial;
+  }
 }
