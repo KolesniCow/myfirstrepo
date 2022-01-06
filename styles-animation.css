@@ -1,0 +1,28 @@
+.anm-slip-top {
+  transform: translateY(150%);
+}
+.anm-slip-bottom {
+  transform: translateY(-150%);
+}
+.anm-fade {
+  opacity: 0;
+}
+.anm-loading {
+  transform-origin: left;
+  transform: scaleX(0);
+}
+.anm-slip-left {
+  transform: translateX(150%);
+}
+.anm-spring-left,
+.anm-spring-right,
+.anm-spring-top,
+.anm-spring-bottom {
+  transform: scale(0);
+}
+.anm-flip-x {
+  transform: scaleX(0);
+}
+.anm-flip-y {
+  transform: scaleX(0);
+}
