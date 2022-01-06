@@ -44,6 +44,7 @@ function OnEnter(entrys, observer) {
       if (entry.target.className.indexOf('anm-loading') != -1) {
         entry.target.style.transform = 'scaleX(1)';
       }
+      observer.unobserve(entry.target);
     }
   });
 }
